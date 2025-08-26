@@ -65,7 +65,7 @@ MIDDLEWARE = [
 
 #CORS (for Vite dev server):
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:5173',
+    "https://resonant-babka-5c92eb.netlify.app",
 ]
 
 ROOT_URLCONF = 'backend.urls'
