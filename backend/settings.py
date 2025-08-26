@@ -27,7 +27,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     "bookopaedia-library-backend.onrender.com",  # Render URL
-    "library.mydomain.com",                      # Your custom domain (optional)
+    "bookopaedia.com",
+    "www.bookopaedia.com",
+    "api.bookopaedia.com",
 ]
 
 
