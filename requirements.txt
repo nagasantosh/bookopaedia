@@ -2,6 +2,7 @@ asgiref==3.9.1
 diff-match-patch==20241021
 gunicorn==21.2.0
 Django==5.2.5
+whitenoise==6.6.0
 django-cors-headers==4.7.0
 django-filter==25.1
 django-import-export==4.3.9
@@ -12,4 +13,5 @@ pillow==11.3.0
 sqlparse==0.5.3
 tablib==3.8.0
 tzdata==2025.2
+
 
