@@ -25,7 +25,10 @@ SECRET_KEY = 'django-insecure-*17*vqb!du+==6ocf-g8=)8obs(zy^8-@_+!op-$vgi4urqcoy
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "bookopaedia-library-backend.onrender.com",  # Render URL
+    "library.mydomain.com",                      # Your custom domain (optional)
+]
 
 
 # Application definition
