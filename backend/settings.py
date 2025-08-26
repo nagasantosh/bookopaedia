@@ -68,6 +68,8 @@ MIDDLEWARE = [
 #CORS (for Vite dev server):
 CORS_ALLOWED_ORIGINS = [
     "https://resonant-babka-5c92eb.netlify.app",
+    "https://www.bookopaedia.com",
+    "https://bookopaedia.com",
     "http://www.bookopaedia.com",
     "http://bookopaedia.com",
 ]
