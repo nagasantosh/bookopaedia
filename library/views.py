@@ -9,7 +9,7 @@ class BookViewSet(viewsets.ReadOnlyModelViewSet):
     serializer_class = BookSerializer
     filterset_fields = ['category', 'author', 'age_group', 'is_available']
     search_fields = ['title', 'author', 'category', 'age_group', 'description']
-    ordering_fields = ['title', 'author']
+    ordering_fields = ['title', 'author', 'category', 'age_group', 'description']
 
     # Optional: free-text query via `?q=`
     def list(self, request, *args, **kwargs):
