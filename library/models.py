@@ -17,8 +17,10 @@ class Book(models.Model):
 
 class BookRequest(models.Model):
     book = models.ForeignKey(Book, on_delete=models.CASCADE, related_name='requests')
+    yourname = models.CharField(max_length=50)
     email = models.EmailField()
     mobile = models.CharField(max_length=15)
+    flatNo = models.CharField(max_length=15)
     timestamp = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
