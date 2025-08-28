@@ -16,7 +16,7 @@ class BookViewSet(viewsets.ReadOnlyModelViewSet):
         qs = self.get_queryset()
         q = request.query_params.get('q')
         if q:
-            qs = qs.filter(title__icontains=q) | qs.filter(author__icontains=q) | qs.filter(category__icontains=q)
+            qs = qs.filter(title__icontains=q) | qs.filter(author__icontains=q) | qs.filter(category__icontains=q) | qs.filter(category__icontains=q)
         self.queryset = qs
         return super().list(request, *args, **kwargs)
 
